@@ -22,6 +22,10 @@ contract Election {
     // easy access to candidates in loop
     uint public candidatesCount;
 
+    event votedEvent (
+        uint indexed _candidateId
+    );
+
     // constructor
     function Election() public {
         addCandidate("Barry Chuckle");
@@ -48,5 +52,8 @@ contract Election {
 
         // append to vote count
         candidates[_candidateId].voteCount++;
+
+        // trigger voted event
+        votedEvent(_candidateId);
     }
 }
