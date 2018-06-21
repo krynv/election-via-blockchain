@@ -19,8 +19,10 @@ contract Election {
     // easy access to candidates in loop
     uint public candidatesCount;
 
+    // constructor
     function Election() public {
-        
+        addCandidate("Barry Chuckle");
+        addCandidate("Paul Chuckle");
     }
 
     function addCandidate(string _name) private {
