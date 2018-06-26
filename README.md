@@ -10,9 +10,10 @@ To begin:
 
 Ensure you have Ganache installed and running along with the MetaMask extension for your browser of choice. 
 
-Make sure MetaMask is configured to your local Ganache blockchain. Usually set to:
+Make sure MetaMask is configured to your local Ganache blockchain. 
+Usually set to:
 
-    http://localhost:7545
+http://localhost:7545
 
 You may need to reinstall the MetaMask extension if you receive errors loading the application for the first time.
 
@@ -22,7 +23,4 @@ Start app:
 
 View at:
 
-    http://localhost:8080/
-
-http://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial
-
+http://localhost:8080/
