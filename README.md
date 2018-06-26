@@ -13,7 +13,7 @@ Ensure you have Ganache installed and running along with the MetaMask extension 
 Make sure MetaMask is configured to your local Ganache blockchain. 
 Usually set to:
 
-http://localhost:7545
+    http://localhost:7545
 
 You may need to reinstall the MetaMask extension if you receive errors loading the application for the first time.
 
